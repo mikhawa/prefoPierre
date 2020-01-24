@@ -1,0 +1,28 @@
+/* Mettre en rouge les balises H1 */
+h1 {
+	color:red;
+}
+
+/* Changer le style des liens */
+a {
+	text-decoration : none;		/* ne plus souligner les liens */
+	color: black;				/* mettre le texte en noir */
+}
+
+a:hover {
+	text-decoration: underline;	/* souligner les liens au survol */
+	color: blue;				/* tous les liens survolés sont en bleu */
+}
+
+nav a:hover {
+	color:black;	/* uniquement les liens dans une balise NAV sont en noir au survol */
+}
+
+ul li a:hover {
+	color: red;		/* uniquement les liens dans une liste à puces sont en rouge */
+}
+
+ul {
+	list-style:none;	/* pour effacer l'affichage des puces */
+}
+
